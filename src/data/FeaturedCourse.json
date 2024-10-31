@@ -1,0 +1,124 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Mastering Piano for Beginners",
+      "slug": "mastering-piano-beginners",
+      "description": "Learn the fundamentals of piano playing, covering notes, scales, and basic songs.",
+      "price": 49.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "https://example.com/images/piano-course.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Guitar Basics for Aspiring Musicians",
+      "slug": "guitar-basics-aspiring-musicians",
+      "description": "A comprehensive course on guitar basics, including chords, strumming, and popular songs.",
+      "price": 39.99,
+      "instructor": "Jane Smith",
+      "isFeatured": false,
+      "image": "https://example.com/images/guitar-course.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Music Theory Essentials",
+      "slug": "music-theory-essentials",
+      "description": "Understand the principles of music theory, including notes, intervals, and chord progressions.",
+      "price": 59.99,
+      "instructor": "Emily Johnson",
+      "isFeatured": true,
+      "image": "https://example.com/images/theory-course.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Vocal Training for Beginners",
+      "slug": "vocal-training-beginners",
+      "description": "Improve your singing skills with vocal exercises and breathing techniques.",
+      "price": 45.0,
+      "instructor": "Mike Brown",
+      "isFeatured": true,
+      "image": "https://example.com/images/vocal-course.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Advanced Drumming Techniques",
+      "slug": "advanced-drumming-techniques",
+      "description": "A deep dive into advanced drumming skills, including patterns and complex rhythms.",
+      "price": 69.99,
+      "instructor": "Sara Lee",
+      "isFeatured": true,
+      "image": "https://example.com/images/drumming-course.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Jazz Improvisation Masterclass",
+      "slug": "jazz-improvisation-masterclass",
+      "description": "Explore jazz improvisation techniques for various instruments, focusing on scales and modes.",
+      "price": 79.99,
+      "instructor": "Bob Harris",
+      "isFeatured": false,
+      "image": "https://example.com/images/jazz-improvisation.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Songwriting for Beginners",
+      "slug": "songwriting-for-beginners",
+      "description": "Learn the art of songwriting, including lyrics, melody creation, and song structure.",
+      "price": 29.99,
+      "instructor": "Alice White",
+      "isFeatured": true,
+      "image": "https://example.com/images/songwriting-course.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Electronic Music Production",
+      "slug": "electronic-music-production",
+      "description": "Master electronic music production using popular software, focusing on beats, synths, and mixing.",
+      "price": 99.99,
+      "instructor": "Chris Martin",
+      "isFeatured": false,
+      "image": "https://example.com/images/electronic-music.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Classical Violin Techniques",
+      "slug": "classical-violin-techniques",
+      "description": "An in-depth course on classical violin techniques, from scales to concert pieces.",
+      "price": 89.99,
+      "instructor": "David Liu",
+      "isFeatured": true,
+      "image": "https://example.com/images/violin-course.jpg"
+    },
+    {
+      "id": 10,
+      "title": "DJing Essentials",
+      "slug": "djing-essentials",
+      "description": "Learn the basics of DJing, from mixing tracks to understanding BPM and rhythm.",
+      "price": 39.99,
+      "instructor": "Rebecca Hall",
+      "isFeatured": false,
+      "image": "https://example.com/images/djing-essentials.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Advanced Saxophone Techniques",
+      "slug": "advanced-saxophone-techniques",
+      "description": "Enhance your saxophone skills with advanced techniques, including jazz and blues styles.",
+      "price": 69.99,
+      "instructor": "James Scott",
+      "isFeatured": true,
+      "image": "https://example.com/images/saxophone-course.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Percussion and Rhythm Mastery",
+      "slug": "percussion-rhythm-mastery",
+      "description": "Master percussion instruments and rhythm with a focus on complex beats and world music.",
+      "price": 55.0,
+      "instructor": "Carlos Romero",
+      "isFeatured": true,
+      "image": "https://example.com/images/percussion-course.jpg"
+    }
+  ]
+}
