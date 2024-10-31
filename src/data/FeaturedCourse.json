@@ -8,7 +8,7 @@
       "price": 49.99,
       "instructor": "John Doe",
       "isFeatured": true,
-      "image": "https://example.com/images/piano-course.jpg"
+      "image": "https://images.pexels.com/photos/258805/pexels-photo-258805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": 2,
@@ -28,7 +28,7 @@
       "price": 59.99,
       "instructor": "Emily Johnson",
       "isFeatured": true,
-      "image": "https://example.com/images/theory-course.jpg"
+      "image": "https://images.pexels.com/photos/210854/pexels-photo-210854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "price": 45.0,
       "instructor": "Mike Brown",
       "isFeatured": true,
-      "image": "https://example.com/images/vocal-course.jpg"
+      "image": "https://images.pexels.com/photos/7521352/pexels-photo-7521352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "price": 69.99,
       "instructor": "Sara Lee",
       "isFeatured": true,
-      "image": "https://example.com/images/drumming-course.jpg"
+      "image": "https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": 6,
@@ -68,7 +68,7 @@
       "price": 29.99,
       "instructor": "Alice White",
       "isFeatured": true,
-      "image": "https://example.com/images/songwriting-course.jpg"
+      "image": "https://images.pexels.com/photos/6670800/pexels-photo-6670800.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": 8,
@@ -88,7 +88,7 @@
       "price": 89.99,
       "instructor": "David Liu",
       "isFeatured": true,
-      "image": "https://example.com/images/violin-course.jpg"
+      "image": "https://images.pexels.com/photos/8661619/pexels-photo-8661619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": 10,
@@ -107,7 +107,7 @@
       "description": "Enhance your saxophone skills with advanced techniques, including jazz and blues styles.",
       "price": 69.99,
       "instructor": "James Scott",
-      "isFeatured": true,
+      "isFeatured": false,
       "image": "https://example.com/images/saxophone-course.jpg"
     },
     {
@@ -117,7 +117,7 @@
       "description": "Master percussion instruments and rhythm with a focus on complex beats and world music.",
       "price": 55.0,
       "instructor": "Carlos Romero",
-      "isFeatured": true,
+      "isFeatured": false,
       "image": "https://example.com/images/percussion-course.jpg"
     }
   ]
