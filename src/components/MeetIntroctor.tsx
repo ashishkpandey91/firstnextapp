@@ -1,4 +1,4 @@
-  "use client";
+"use client";
 import React from "react";
 import { AnimatedTooltip } from "./ui/animated-tooltip";
 import { WavyBackground } from "./ui/wavy-background";
@@ -44,21 +44,19 @@ export function AnimatedTooltipPreview() {
   return (
     <div className="overflow-x-hidden relative w-full">
       <div className="flex flex-col justify-center py-4  items-center relative">
-      <WavyBackground className="w-full">
-      <p className="text-2xl w- md:text-4xl lg:text-7xl text-white font-bold text-center md:mt-20">
-        Meet Our Instructors</p>
-      <p className="text-base md:text-lg mt-4 text-white font-normal text-center">
-        Discover the talented professionals who will guide your musical journey
-      </p>
-      <div className="flex justify-center items-center mt-20">
-      <AnimatedTooltip key={people[0].id} items={people} />
-      </div>
-      </WavyBackground>
+        <WavyBackground className="w-full">
+          <p className="text-2xl w- md:text-4xl lg:text-7xl text-white font-bold text-center md:mt-20">
+            Meet Our Instructors
+          </p>
+          <p className="text-base md:text-lg mt-4 text-white font-normal text-center">
+            Discover the talented professionals who will guide your musical
+            journey
+          </p>
+          <div className="flex justify-center items-center mt-20">
+            <AnimatedTooltip key={people[0].id} items={people} />
+          </div>
+        </WavyBackground>
       </div>
     </div>
   );
 }
-
-
-
-  

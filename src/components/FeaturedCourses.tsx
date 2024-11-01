@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import feturedCourseData from "@/data/FeaturedCourse.json";
 import { BackgroundGradient } from "./ui/background-gradient";
 import Image from "next/image";
@@ -20,6 +19,7 @@ function FeaturedCourses() {
   const feturedCourses = feturedCourseData.courses.filter(
     (couse: Course) => couse.isFeatured
   );
+
   return (
     <div className="bg-slate-800 w-full py-8 px-2 mt-10 ">
       <p className="md:text-xl text-lg font-semibold text-center md:my-5 ">
@@ -57,10 +57,11 @@ function FeaturedCourses() {
           </div>
         ))}
       </div>
-     <Link href={"/all-courses"}><p className="mt-7 cursor-pointer mx-auto w-44 px-3 py-2 text-lg bg-gray-400 text-black rounded-md font-bold hover:bg-gray-300 text-center">
-        See All Courses
-      </p>
-      </Link> 
+      <Link href={"/all-courses"}>
+        <p className="mt-7 cursor-pointer mx-auto w-44 px-3 py-2 text-lg bg-gray-400 text-black rounded-md font-bold hover:bg-gray-300 text-center">
+          See All Courses
+        </p>
+      </Link>
     </div>
   );
 }
