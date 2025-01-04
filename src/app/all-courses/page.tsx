@@ -3,7 +3,7 @@ import React from "react";
 import feturedCourseData from "@/data/FeaturedCourse.json";
 import { BackgroundGradient } from "@/components/ui/background-gradient";
 // import Image from 'next/image';
-console.log(feturedCourseData);
+// console.log(feturedCourseData);
 interface Course {
   id: number;
   title: string;
@@ -27,7 +27,7 @@ function FeaturedCourses() {
       </p>
       <div className=" grid grid-cols-1 md:grid-cols-4 place-items-center w-full items-center justify-center gap-5 ">
         {feturedCourses.map((course: Course) => (
-          <div key={course.id} className="">
+          <div key={course.id} className="cursor-pointer">
             <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 h-80">
               {/* <Image 
         src={course.image} 
